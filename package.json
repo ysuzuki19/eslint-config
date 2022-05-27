@@ -1,23 +1,22 @@
 {
   "name": "@ysuzuki19/eslint-config",
   "version": "1.0.0",
-  "description": "eslint config for me",
+  "description": "eslint config for my typescript project",
   "main": "./.eslintrc",
   "module": "./.eslintrc",
   "files": [
     ".eslintrc",
     "LICENSE"
   ],
-  "scripts": {
-    "test": "jest",
-    "prepublishOnly": "npm run build"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ysuzuki19/eslint-config.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "typescript",
+    "react",
+    "sort-import"
   ],
   "author": "ysuzuki19 (https://ysuzuki19.github.io/)",
   "license": "MIT",
