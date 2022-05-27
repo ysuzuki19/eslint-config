@@ -24,7 +24,7 @@
     "url": "https://github.com/ysuzuki19/eslint-config/issues"
   },
   "homepage": "https://github.com/ysuzuki19/eslint-config#readme",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint-config-prettier": "^8.5.0",
