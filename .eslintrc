@@ -50,7 +50,7 @@
       "rules": {}
     },
     {
-      "files": ["src/**/*.{ts,tsx}"],
+      "files": ["src/**/*.{ts,tsx}", "pages/**/*.{ts,tsx}"],
       "rules": {
         "import/order": [
           "error",
