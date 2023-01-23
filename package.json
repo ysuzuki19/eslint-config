@@ -1,6 +1,6 @@
 {
   "name": "@ysuzuki19/eslint-config",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "eslint config for my typescript project",
   "main": "./.eslintrc",
   "module": "./.eslintrc",
