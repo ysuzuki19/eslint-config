@@ -30,6 +30,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import-access": "^1.0.2",
     "eslint-plugin-prettier": "^4.0.0"
   }
 }

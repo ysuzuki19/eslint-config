@@ -3,7 +3,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["@typescript-eslint/eslint-plugin", "eslint-plugin-import"],
+  "plugins": ["@typescript-eslint/eslint-plugin", "eslint-plugin-import", "import-access"],
   "parser": "@typescript-eslint/parser",
   "settings": {
     "import/resolver": {
@@ -22,7 +22,8 @@
       {
         "singleQuote": true
       }
-    ]
+    ],
+    "import-access/jsdoc": "error"
   },
   "parserOptions": {
     "project": "tsconfig.json",
