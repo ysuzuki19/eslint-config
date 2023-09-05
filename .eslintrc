@@ -5,7 +5,11 @@
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "eslint-plugin-import", "import-access"],
+  "plugins": [
+    "@typescript-eslint",
+    "eslint-plugin-import",
+    "import-access"
+  ],
   "settings": {
     "import/resolver": {
       "typescript": {
@@ -21,6 +25,7 @@
     "prettier/prettier": [
       "error",
       {
+        "trailingComma": "all",
         "singleQuote": true
       }
     ],
@@ -35,13 +40,22 @@
     "node": true,
     "jest": true
   },
-  "ignorePatterns": [".eslintrc"],
+  "ignorePatterns": [
+    ".eslintrc"
+  ],
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx"],
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
       "parser": "@typescript-eslint/parser",
-      "plugins": ["@typescript-eslint"],
-      "extends": ["plugin:@typescript-eslint/recommended"],
+      "plugins": [
+        "@typescript-eslint"
+      ],
+      "extends": [
+        "plugin:@typescript-eslint/recommended"
+      ],
       "parserOptions": {
         "sourceType": "module",
         "ecmaVersion": 2020,
@@ -52,7 +66,9 @@
       "rules": {}
     },
     {
-      "files": ["**/*.{ts,tsx}"],
+      "files": [
+        "**/*.{ts,tsx}"
+      ],
       "rules": {
         "import/order": [
           "error",
@@ -60,7 +76,10 @@
             "groups": [
               "builtin",
               "external",
-              ["parent", "sibling"],
+              [
+                "parent",
+                "sibling"
+              ],
               "index",
               "object",
               "type"
