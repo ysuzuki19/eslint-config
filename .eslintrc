@@ -29,7 +29,16 @@
         "singleQuote": true
       }
     ],
-    "import-access/jsdoc": "error"
+    "import-access/jsdoc": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ]
   },
   "parserOptions": {
     "project": "tsconfig.json",
