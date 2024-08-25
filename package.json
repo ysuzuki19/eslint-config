@@ -1,11 +1,11 @@
 {
   "name": "@ysuzuki19/eslint-config",
-  "version": "3.5.0",
+  "version": "4.0.0",
   "description": "eslint config for my typescript project",
-  "main": "./.eslintrc",
-  "module": "./.eslintrc",
+  "main": "./eslint.config.mjs",
+  "module": "./eslint.config.mjs",
   "files": [
-    ".eslintrc",
+    "eslint.config.mjs",
     "LICENSE"
   ],
   "repository": {
@@ -25,12 +25,19 @@
   },
   "homepage": "https://github.com/ysuzuki19/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.1.1",
-    "@typescript-eslint/parser": "^7.1.1",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-import-access": "^2.1.1",
-    "eslint-plugin-prettier": "^5.0.0"
+    "eslint-plugin-prettier": "^5.0.0",
+    "typescript-eslint": "^8.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.9.1",
+    "typescript": "^5.5.4"
   }
 }
