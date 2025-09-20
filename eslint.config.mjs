@@ -7,7 +7,7 @@ import importAccess from 'eslint-plugin-import-access/flat-config';
 import * as tseslintParser from '@typescript-eslint/parser';
 import eslintPluginImport from 'eslint-plugin-import';
 
-export default [
+export const config = [
   js.configs.recommended,
   ...tseslint.configs.recommended,
   eslintPluginPrettierRecommended,
